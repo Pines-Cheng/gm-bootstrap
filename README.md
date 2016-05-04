@@ -37,7 +37,7 @@ https://gems.ruby-china.org/
 
 ###使用
 运行`gulp watch`监控less文件改动,自动编译.
-运行`gulp less`只进行一次编译.
+运行`gulp build:less`只进行一次编译.
 运行`npm run dev`,即可打开`127.0.0.1:4000`查看效果,且文件发生变动自动刷新.
 
 
