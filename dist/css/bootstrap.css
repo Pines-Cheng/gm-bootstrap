@@ -1,4 +1,4 @@
-/*!  v1.0.0 | by GuanMai UI Team | (c) 2016 AllMobilize, Inc. | Licensed under ISC | 2016-05-03T10:57:09+0800 */
+/*!  v1.0.0 | by GuanMai UI Team | (c) 2016 AllMobilize, Inc. | Licensed under ISC | 2016-05-04T11:07:26+0800 */
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -6,6 +6,7 @@
  */
 /**
  * Created by spider on 16/5/3.
+ 以下变量将覆盖bootsrap的variable.less中的同名变量
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
@@ -1080,7 +1081,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #333333;
+  color: #555555;
   background-color: #F5F5F5;
 }
 input,
@@ -2907,7 +2908,7 @@ select[multiple].input-lg {
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: #737373;
+  color: #959595;
 }
 @media (min-width: 768px) {
   .form-inline .form-group {
@@ -3056,25 +3057,25 @@ fieldset[disabled] a.btn {
 }
 .btn-default {
   color: #333;
-  background-color: #fff;
+  background-color: #eeeff0;
   border-color: #ccc;
 }
 .btn-default:focus,
 .btn-default.focus {
   color: #333;
-  background-color: #e6e6e6;
+  background-color: #d3d6d8;
   border-color: #8c8c8c;
 }
 .btn-default:hover {
   color: #333;
-  background-color: #e6e6e6;
+  background-color: #d3d6d8;
   border-color: #adadad;
 }
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
   color: #333;
-  background-color: #e6e6e6;
+  background-color: #d3d6d8;
   border-color: #adadad;
 }
 .btn-default:active:hover,
@@ -3087,7 +3088,7 @@ fieldset[disabled] a.btn {
 .btn-default.active.focus,
 .open > .dropdown-toggle.btn-default.focus {
   color: #333;
-  background-color: #d4d4d4;
+  background-color: #c0c4c7;
   border-color: #8c8c8c;
 }
 .btn-default:active,
@@ -3104,11 +3105,11 @@ fieldset[disabled] .btn-default:focus,
 .btn-default.disabled.focus,
 .btn-default[disabled].focus,
 fieldset[disabled] .btn-default.focus {
-  background-color: #fff;
+  background-color: #eeeff0;
   border-color: #ccc;
 }
 .btn-default .badge {
-  color: #fff;
+  color: #eeeff0;
   background-color: #333;
 }
 .btn-primary {
@@ -5017,7 +5018,7 @@ a.thumbnail.active {
 }
 .thumbnail .caption {
   padding: 9px;
-  color: #333333;
+  color: #555555;
 }
 .alert {
   padding: 15px;
