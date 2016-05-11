@@ -37,6 +37,7 @@ https://gems.ruby-china.org/
 
 ###使用
 运行`gulp watch`监控less文件改动,自动编译.
+修改less目录下的theme.less文件，添加或修改变量的值，该文件的变量将直接覆盖variable.less里面的变量的值。
 运行`gulp build:less`只进行一次编译.
 运行`npm run dev`,即可打开`127.0.0.1:4000`查看效果,且文件发生变动自动刷新.
 
