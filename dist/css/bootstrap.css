@@ -1,4 +1,4 @@
-/*!  v1.0.0 | by GuanMai UI Team | (c) 2016 AllMobilize, Inc. | Licensed under ISC | 2016-05-04T11:07:26+0800 */
+/*!  v1.0.0 | by GuanMai UI Team | (c) 2016 AllMobilize, Inc. | Licensed under ISC | 2016-06-10T22:17:33+0800 */
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -3057,25 +3057,25 @@ fieldset[disabled] a.btn {
 }
 .btn-default {
   color: #333;
-  background-color: #eeeff0;
+  background-color: #fff;
   border-color: #ccc;
 }
 .btn-default:focus,
 .btn-default.focus {
   color: #333;
-  background-color: #d3d6d8;
+  background-color: #e6e6e6;
   border-color: #8c8c8c;
 }
 .btn-default:hover {
   color: #333;
-  background-color: #d3d6d8;
+  background-color: #e6e6e6;
   border-color: #adadad;
 }
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
   color: #333;
-  background-color: #d3d6d8;
+  background-color: #e6e6e6;
   border-color: #adadad;
 }
 .btn-default:active:hover,
@@ -3088,7 +3088,7 @@ fieldset[disabled] a.btn {
 .btn-default.active.focus,
 .open > .dropdown-toggle.btn-default.focus {
   color: #333;
-  background-color: #c0c4c7;
+  background-color: #d4d4d4;
   border-color: #8c8c8c;
 }
 .btn-default:active,
@@ -3105,11 +3105,11 @@ fieldset[disabled] .btn-default:focus,
 .btn-default.disabled.focus,
 .btn-default[disabled].focus,
 fieldset[disabled] .btn-default.focus {
-  background-color: #eeeff0;
+  background-color: #fff;
   border-color: #ccc;
 }
 .btn-default .badge {
-  color: #eeeff0;
+  color: #fff;
   background-color: #333;
 }
 .btn-primary {
