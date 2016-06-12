@@ -1,13 +1,14 @@
 {
   "name": "gm-bootstrap",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "custom bootstrap",
   "main": "index.js",
   "scripts": {
-    "dev": "jekyll serve -s ./gh-pages -d ./_site",
-    "watch":"gulp watch",
+    "watch": "gulp watch",
+    "start": "jekyll serve -s ./gh-pages -d ./_site",
+    "deploy": "gulp build:less",
     "build": "jekyll build -s ./gh-pages -d ./_site",
-    "pages": "gh-pages -d ./_site"
+    "gh-pages": "npm run build && gh-pages -d ./_site"
   },
   "repository": {
     "type": "git",

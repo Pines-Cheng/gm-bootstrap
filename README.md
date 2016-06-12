@@ -36,13 +36,17 @@ https://gems.ruby-china.org/
 ```
 
 ###使用
-运行`gulp watch`监控less文件改动,自动编译.
+
+运行`npm watch`会监控less文件改动,自动编译.
 修改less目录下的theme.less文件，添加或修改变量的值，该文件的变量将直接覆盖variable.less里面的变量的值。
-运行`gulp build:less`只进行一次编译.
-运行`npm run dev`,即可打开`127.0.0.1:4000`查看效果,且文件发生变动自动刷新.
+
+运行`npm start`,即可打开`127.0.0.1:4000`查看效果,且文件发生变动自动刷新（貌似不会）.
 
 
 ### 发布
-将docs下的文档发布到gh-pages分支:
-- Step 1 :运行`npm run build`构建站点,生成的站点放在`./_site`目录下
-- Step 2 :运行`npm run deploy`即可将`./_site`下的静态网站自动发布到gh-pages分支.
+
+运行`npm run deploy`对less编译
+
+### 发布到gh-pages
+
+运行`npm run gh-pages`
